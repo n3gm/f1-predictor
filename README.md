@@ -31,7 +31,7 @@ Predicting the winner of an F1 race cannot rely on static driver names because c
 ---
 
 
-#  Key Engineered Features
+## Key Engineered Features
 GridPosition: Official starting position on the grid.
 
 DeltaToPole: Gap in seconds to the fastest qualifying lap (measures raw single-lap pace).
@@ -42,7 +42,7 @@ Team_Avg_Finish_Last3: Shifted 3-race rolling average of constructor finishes (m
 
 ---
 
-#  Evaluation Strategy
+## Evaluation Strategy
 Because each race has exactly 1 winner and 19 losers (heavy class imbalance), standard 0.5 classification thresholding fails.
 
 The model is evaluated using:
@@ -53,7 +53,7 @@ Temporal Split: The model is trained on historical rounds and tested exclusively
 
 ---
 
-# Tech Stack
+## Tech Stack
 - Language: Python
 - Data Sources: FastF1, Ergast API
 - Data Manipulation: Pandas, NumPy
