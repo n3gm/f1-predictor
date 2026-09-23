@@ -1,0 +1,27 @@
+
+```text
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Data & Cache (Never commit large data or local cache)
+data/
+cache/
+f1_cache/
+
+# Trained Models / Artifacts
+models/*.pkl
+models/*.joblib
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
